@@ -1,6 +1,6 @@
-window.addEventListener("load", function() {
-   let form = document.querySelector("form");
-   form.addEventListener("submit", function(event) {
+window.addEventListener('load', function() {
+   let form = document.querySelector('form');
+   form.addEventListener('submit', function(event) {
      alert("form submitted");
      event.preventDefault();
 
